@@ -1,5 +1,6 @@
 #include <iostream>
 
+// increasing order:=>
 void inserstionSort(int *arr, int size)
 {
     int i;
@@ -15,6 +16,25 @@ void inserstionSort(int *arr, int size)
         arr[i + 1] = key;
     }
 }
+
+
+
+// decreasing order:=>
+// void inserstionSort(int *arr, int size)
+// {
+//     int i;
+//     for (int j = 1; j < size; j++)         //traversing over each element
+//     {
+//         int key = arr[j];                         
+//         i = j - 1;
+//         while (i >= 0 && arr[i] < key)      //shifting elements to right
+//         {
+//             arr[i + 1] = arr[i];
+//             i = i - 1;
+//         }
+//         arr[i + 1] = key;
+//     }
+// }
 
 int main()
 {
