@@ -39,7 +39,7 @@ void inserstionSort(int *arr, int size)
 int main()
 {
     int arr[10] = {14, 3, 20, 10, 0, 99, 66, 53, 1, 7}; //array with size
-    inserstionSort(arr, 10);                            //calling insertionSort()
+    inserstionSort(arr, 10);                            
     for (int i = 0; i < 10; i++)                        //displaying sorted elements
     {                                                   //
         std::cout << arr[i] << "\t";                    //
